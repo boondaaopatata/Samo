@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="Full-Game-Style.css">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Game,TicTacToe,WebGame,Multiplayer">
+    <meta name="description" content="The is the first coding project made by Samo which is a TicTacToe that includes multiple modes and many features.">
+    <meta name="author" content="Samo">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  </head>
+  <body>
+    <div class="web-page-grid">
+      <div class="starting-menu">
+        <p class="start-game-title">START GAME</p>
+        <div class="Choose-player">
+          <button class="Player-1" onclick="difficultyModeMenu(1)">Play as x</button>
+          <button class="Player-2" onclick="difficultyModeMenu(2)">Play as o</button>
+          <button class="Player-2" onclick="startGame(3)">2Players</button>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="game-here"></div>
+    
+    <script src="Scripts/difficulty-start-menu.js"></script>
+    <script src="Scripts/main-game.js"></script>
+    <script src="Scripts/computer-play.js"></script>
+    <script src="Scripts/button-code.js"></script>
+    
+
+    <Script src="Scripts/Algorithms/computer-pick-algorithm.js"></Script>
+    <Script src="Scripts/Algorithms/Winner-algorithm.js"></Script>
+  </body>
+</html>
